@@ -21,7 +21,7 @@ while len(correct_guesses) < 50:
         not_guessed_states = df[~df["state"].isin(correct_guesses)].state.values
         new_df = pd.DataFrame(not_guessed_states)
 
-        # In the example is just did it with 1 state
+        # In the example I just did it with 1 state
         new_df.to_csv("states_to_learn.csv")
         break
 
