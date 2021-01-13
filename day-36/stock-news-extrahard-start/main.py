@@ -3,7 +3,6 @@ import requests
 import datetime as dt
 import dateutil.parser as parse_date
 from twilio.rest import Client
-import math
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
